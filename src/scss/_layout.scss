@@ -1,0 +1,85 @@
+html, body{
+    background-color: #ffffff;
+    padding-top: 20px;
+
+}
+
+#images{
+    margin: 20px 0px;
+}
+
+#logo img{
+    padding-top: 30px;
+    width: 10%;
+}
+
+#intro p{
+    font-size: 4rem;
+    color: $primaryColour;
+    font-family: $font-family;
+    margin: 0px;
+}
+
+#icons{
+
+    text-align: center;
+
+    .twitter:hover{
+        color: #6cadde;
+        bottom: 5px;
+    }
+
+    .facebook:hover{
+        color: #3b5998;
+        bottom: 5px;
+    }
+
+    .instagram:hover{
+        color: #517fa6;
+        bottom: 5px;
+    }
+
+    .fa{
+        color: $primaryColour;
+        font-size: 6rem;
+        position: relative;
+        bottom: 0;
+        transition: all 0.2s ease-in-out;
+    }
+
+    ul a li{
+        display: inline-block;
+        text-align: center;
+        margin: 0px 20px;
+    }
+}
+
+#signup{
+    text-align: center;
+
+    .inline-form{
+        display: block;
+    }
+
+    .btn{
+    background-color: $primaryColour;
+    color: #ffffff;
+    }
+
+    .btn:hover{
+        background-color: darken($primaryColour, 10);
+    }
+
+}
+
+
+#facts{
+    margin-bottom: 100px;
+}
+
+
+.small_text{
+    text-align: left;
+    padding-left: 20px;
+    color: $secondaryColour;
+}

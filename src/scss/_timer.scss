@@ -1,0 +1,32 @@
+
+#counter{
+  text-align: center;
+  margin: 0px;
+}
+
+#countup p {
+display: inline-block;
+padding: 0px;
+background: transparent;
+margin-right: 0px;
+font-size: 2rem;
+color: $secondaryColour;
+}
+
+p#years,
+p#days,
+p#hours,
+p#minutes,
+p#seconds{
+  font-size: 5.6rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  color: $primaryColour;
+
+}
+
+.text-outer{
+  margin: 0;
+  padding: 0;
+}
